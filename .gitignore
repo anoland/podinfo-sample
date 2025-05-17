@@ -2,6 +2,7 @@
 # https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
 #
 # Binaries for programs and plugins
+bin/
 *.exe
 *.exe~
 *.dll
@@ -10,6 +11,7 @@
 
 # Test binary, built with `go test -c`
 *.test
+**/__debug_bin*
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
@@ -21,5 +23,13 @@
 go.work
 go.work.sum
 
+# editor and IDE paraphernalia
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
 # env file
 .env
+.envrc
