@@ -21,5 +21,13 @@
 go.work
 go.work.sum
 
+# editor and IDE paraphernalia
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
 # env file
 .env
+.envrc
