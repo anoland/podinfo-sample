@@ -1,0 +1,12 @@
+apiVersion: sample.indigente.net/v1alpha1
+kind: PodInfo
+metadata:
+  labels:
+    app.kubernetes.io/name: podinfo
+    app.kubernetes.io/instance: podinfo-sample
+    app.kubernetes.io/part-of: podinfo-sample
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: podinfo-sample
+  name: podinfo-sample
+spec:
+  # TODO(user): Add fields here
